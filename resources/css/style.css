@@ -1,5 +1,72 @@
 html {
-  /* font-family: 'Monoton', cursive; */
-  font-size: 3rem;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+}
+
+
+header > nav > div > ul {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar-main {
+  background-color: white;
+}
+
+.nav-links {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: white;
+  color: #399bd1;
+}
+
+.jumbotron {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image:
+    url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-bike.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 41rem;  /* probably remove later and let chilld elements determine height. */ */
+}
+
+.jumbotron > h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  /* margin-bottom: 0;
+  padding-bottom: 0; */
+  color: white;
+  text-shadow:
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+
+.jumbotron > p {
+  width: 51.3rem;
+  text-align: center;
+  margin: 0 auto;
+  /* padding-top: 2.8rem; */
+  padding-bottom: 2.8rem;
+  color: white;
+  text-shadow:
+              -1px -1px  #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              1px 1px 0 #000;
 }
