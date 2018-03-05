@@ -3,7 +3,6 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 header > nav > div > ul {
   padding: 0;
   margin: 0;
@@ -35,20 +34,22 @@ header > nav > div > ul {
 
 .jumbotron {
   padding-top: 11.85rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
   padding-bottom: 11.85rem;
   background-image:
     url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-bike.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 41rem;  /* probably remove later and let chilld elements determine height. */ */
 }
 
 .jumbotron > h1 {
   font-family: 'Monoton', cursive;
   font-size: 7.1rem;
-  /* margin-bottom: 0;
-  padding-bottom: 0; */
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 2.8rem;
   color: white;
   text-shadow:
                 -1px -1px 0 #000,
@@ -61,7 +62,6 @@ header > nav > div > ul {
   width: 51.3rem;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 2.8rem;
   color: white;
   text-shadow:
               -1px -1px  #000,
@@ -70,28 +70,96 @@ header > nav > div > ul {
               1px 1px 0 #000;
 }
 
+.btn-primary {
+  margin-top: 2.8rem;
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+}
+
+.btn-primary:hover {
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primaryactive {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.subsect-heading {
+  margin-top: 2rem;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
 .image-container {
-  /* display: inline-flex; */
-  /* border: solid 1px red; */
   margin: 0;
   padding: 0;
+  /* border: solid yellow 1px; */
 }
 
 .image-container > img {
   width: 100%;
-  /* height: auto; */
   opacity: 0.7;
+  /* border: solid blue 1px; */
 }
 
-.sub-story > h4 {
-  padding: 0;
-  margin: 0;
+#documentary, #categories {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-.project1, .project2, .project3 {
+#categories {
+  color: #399bd1;
+}
+
+.sub-story > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.sub-story > ul > li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#projects {
+  margin-bottom: 5.85rem;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  /* width: 100%; */
+  /* border: solid red 1px; */
+  padding: 0;
+}
+
+
+
+.project {
+  /* margin-left: 0; */
+  /* border: solid red 1px; */
+  width: 32%;
   margin: 0;
   padding: 0;
 }
+
+#peppermint {
+  margin: 0 1.7rem;
+}
+
+/* .project3 {
+  padding: 0;
+} */
+
+/* .project1, .project2, .project3 {
+  margin: 0;
+  padding: 0;
+} */
 
 .trouble {
   background-color: #f3f3f3;
