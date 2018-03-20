@@ -87,17 +87,17 @@ img {
 
 .background-beer {
   background-image:
-    url("/resources/images/jumbotron-beer.jpg");
+    url("https://kbussert.github.io/Jumpstart/resources/images/jumbotron-beer.jpg");
 }
 
 .background-flowers {
   background-image:
-    url("./resources/images/jumbotron-flowers.jpg");
+    url("https://kbussert.github.io/Jumpstart/resources/images/jumbotron-flowers.jpg");
 }
 
 .background-duffel {
   background-image:
-    url("~/resources/images/jumbotron-duffel.jpg");
+    url("https://kbussert.github.io/Jumpstart/resources/images/jumbotron-duffel.jpg");
 }
 
 .jumbotron h1 {
