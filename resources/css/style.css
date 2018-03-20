@@ -87,7 +87,7 @@ img {
 
 .background-beer {
   background-image:
-    url("~/resources/images/jumbotron-beer.jpg");
+    url("/resources/images/jumbotron-beer.jpg");
 }
 
 .background-flowers {
