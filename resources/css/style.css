@@ -82,22 +82,22 @@ img {
 
 .background-bike {
   background-image:
-    url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-bike.jpg");
+    url("./resources/images/jumbotron-bike.jpg");
 }
 
 .background-beer {
   background-image:
-    url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-beer.jpg");
+    url("./resources/images/jumbotron-beer.jpg");
 }
 
 .background-flowers {
   background-image:
-    url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-flowers.jpg");
+    url("./resources/images/jumbotron-flowers.jpg");
 }
 
 .background-duffel {
   background-image:
-    url("/Users/kb186036/WebProjects/Jumpstart/resources/images/jumbotron-duffel.jpg");
+    url("./resources/images/jumbotron-duffel.jpg");
 }
 
 .jumbotron h1 {
