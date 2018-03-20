@@ -82,7 +82,7 @@ img {
 
 .background-bike {
   background-image:
-    url("./resources/images/jumbotron-bike.jpg");
+    url("Jumpstart/resources/images/jumbotron-bike.jpg");
 }
 
 .background-beer {
@@ -97,7 +97,7 @@ img {
 
 .background-duffel {
   background-image:
-    url("./resources/images/jumbotron-duffel.jpg");
+    url("~/resources/images/jumbotron-duffel.jpg");
 }
 
 .jumbotron h1 {
